@@ -1,0 +1,684 @@
+.titre{
+  
+font-family: 'Libre Baskerville', serif;
+  font-weight : bold;
+  color:black;
+   margin-top:25%;
+  text-align:center;
+  font-size: 60px;
+}
+.titre:hover{
+color:black;
+}
+h3{
+  font-family: 'Libre Baskerville', serif;
+  font-weight : bold;
+}
+
+
+h1{
+color:orange;
+  font-weight: bold;
+  text-align:left;
+  font-size: 30px;
+}
+h1:hover{
+color:blue;
+}
+.header{
+  position:fixed;
+  z-index:5;
+  color:white;
+  width:100vw;
+  height:50px;
+  
+}
+.navbar{
+  background:white;
+}
+.main-background{
+  background-image:url("https://cdn.glitch.global/fca97742-25ab-4151-a3b6-c004767cacd7/bureaux-minimalistes3.jpg?v=1675632982371");
+  
+ height: calc(100vh - 3px);
+  
+  background-size: cover;
+}
+.connexion{
+  background:white;
+  margin-top:25%;
+  height:50px;
+  width:250px;
+  
+}
+
+.connexion:hover{
+color:orange;
+  -webkit-transform:scale(1.25);
+-moz-transform:scale(1.25); 
+-ms-transform:scale(1.25); 
+-o-transform:scale(1.25); 
+transform:scale(1.25);
+}
+
+.salon{
+  background:orange;
+  margin-top:25%;
+  height:50px;
+  width:250px;
+  
+}
+.salon:hover{
+color:white;
+  -webkit-transform:scale(1.25);
+-moz-transform:scale(1.25); 
+-ms-transform:scale(1.25); 
+-o-transform:scale(1.25); 
+transform:scale(1.25);
+}
+
+.teletravail{
+  height:440px;
+ width:100%;  
+  background:white;
+   margin:1%;
+padding:2%;
+  margin-top:40px;
+  color:black;
+ 
+}
+.soustitre{
+  margin:10px;
+  text-align:center;
+  font-size:30px;
+  color: #f27922;
+  font-weight:bold;
+}
+.ombre{
+    box-shadow:2px 3px 5px rgb(237 127 24 / 10%);
+}
+
+.separator{
+  width: 75vw;
+  border-bottom: orange 3px solid;
+  margin-left: 12.5vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.carte{
+  background:white;
+ width:500px;
+}
+h4{
+  margin-top:15px;
+}
+
+.choc{
+ font-size: 20px; 
+  background:white;
+  margin:2%;
+  padding:3%;
+  margin-top:15px;
+  text-align:left;
+}
+
+.fonct{
+  margin:2%;
+  padding:3%;
+  margin-top:15px;
+ 
+}
+
+.animation{
+   align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+  
+}
+.animation:hover{
+  animation-name: animation;
+    animation-timing-function: ease;
+}
+@keyframes animation{
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+.service{
+  background-color:white;
+}
+.espace{
+  width:100%;
+  margin-top:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  
+}
+.image2{
+  height:100%;
+  width:90%;
+   margin:3%;
+}
+.orange{
+  background-color:#fbad28;
+   margin-top:70px;
+  padding:35px;
+}
+.top{
+  margin-top:5px;
+}
+
+
+
+
+
+
+
+.titre-chiffres-cles {
+  text-align: center;
+  margin-top : 25px;
+  margin-bottom:60px;
+  color:black;
+  font-weight:bold;
+  font-size:30px;
+  font-family: Arial, sans-serif; 
+  
+}
+ 
+
+
+
+.chiffres-cles-section {
+  display:flex;
+  align-items:center;
+  margin:auto;
+  width:80%;
+  background-color:white;
+  padding:25px;
+  
+}
+
+
+
+
+.chiffres-cles-picture {
+  width:50%;
+  
+}
+
+
+
+
+.liste-chiffre-cles{
+  color:black;
+  margin-left:30px;
+  font-size: 15px;
+  list-style-type:disc;
+}
+
+
+
+
+
+
+
+
+
+
+.fond-notre-equipe {
+  height : 420px;
+  background-color: white;
+  
+}
+
+
+
+.not-missed-equipe {
+  margin-top: 30px;
+  color: white;
+  border-bottom: 1px solid black;
+  text-align: center;
+  
+}
+
+
+
+.container-profil-equipe {
+  margin-top:40px;
+   margin-bottom:120px;
+  display:flex;
+  justify-content: space-around;
+  color : white;
+  margin-left:30px;
+  margin-right:50px;
+  
+}
+
+
+.photo-profil-equipe {
+  height:200px;
+  width:200px;
+  border-radius:100px;
+  margin-right:40px;
+}
+
+
+
+
+.photo-entreprise {
+  height:200px;
+  width:200px;
+  
+  object-fit: contain;
+}
+
+
+
+.photo-profil-equipe {
+  height:200px;
+  width:200px;
+  border-radius:100px;
+  margin-right:40px;
+}
+
+
+
+h3 {
+  margin-top:70px;
+  text-align:center;
+}
+
+.name {
+  font-size: 20px;
+  color:#f27922;
+  font-weight:bold;
+  text-align:center;
+  padding-right:2px;
+}
+
+
+
+/*AVIS*/
+
+.contact-us-text {
+  margin-top: 100px;
+  font-size: 60px;
+  text-align: center;
+  border-bottom: 3px solid  	#FF8C00;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+  margin-top: 300px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.right {
+  text-align: right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+.bar-5 {
+  width: 60%;
+  height: 18px;
+  background-color: #04aa6d;
+}
+.bar-4 {
+  width: 30%;
+  height: 18px;
+  background-color: #2196f3;
+}
+.bar-3 {
+  width: 10%;
+  height: 18px;
+  background-color: #00bcd4;
+}
+.bar-2 {
+  width: 4%;
+  height: 18px;
+  background-color: #ff9800;
+}
+.bar-1 {
+  width: 15%;
+  height: 18px;
+  background-color: #f44336;
+}
+
+= @media (max-width: 400px) {
+  .side,
+  .middle {
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+  }
+}
+
+
+/*AVIS*/
+
+
+
+
+
+/*FOOTER*/
+
+.footer-distributed{
+	background: orange;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  ##BA9E66;
+  
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color: grey;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: white;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
+
+p{
+  color:black;
+ padding:18px;
+  margin:18px;
+  
+  
+}
+.marge{
+  margin-top:20px;
+}
+.divLogoFooter{
+  width:20%;
+}
+.logoFooter{
+  width:70px;
+ 
+}
+.foot{
+ font-size: 20px;
+   margin-top:1px;
+  padding-right:30px;
+  
+}
+footer{
+  
+  height:80px;
+  padding-left:5px;
+  background:white;
+  color:white;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+/*FOOTER*/
+
+h3 {
+  color: #de2312;
+}
+utilisateur{
+  text-align:left;
+  margin-top: 15px;
+}
+.travail{
+  height:305px;
+  
+}
+.distance{
+  margin-top: 50px;
+}
+.fonction{
+   margin:2%;
+   font-weight:bold;
+}
+h4{
+  font-weight:bold;
+  padding-left:15px;
+}
+.para{
+  margin:1px;
+}
+.job {
+  font-size:14px;
+  color:black;
+}
+.esp{
+  margin:4px;
+}
